@@ -1099,36 +1099,30 @@ box-shadow: 0px 8px 11px 3px #0000001a;
 .owl-next {
   right: -30px;
 }
-.owl-nav i {
-  background-color: rgb(38, 40, 43);
-  border-radius: 500%;
-  color: #ffffff;
-  display: block;
-  font-size: 26px;
+.owl-icon{
   height: 40px;
-  line-height: 40px;
-  text-align: center;
   width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgb(38, 40, 43);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: all 0.3s ease-in-out;
 }
-.owl-nav i:active,
-.owl-nav i:hover {
-  color: #fa3b3b;
+.owl-icon:hover{
+  background-color: #fa3b3b;
 }
-.owl-prev i {
-  padding-right: 3px;
-}
-.owl-next i {
-  padding-left: 3px;
+.owl-icon img{
+    filter: invert(1) brightness(1) !important;
+    width: 75%;
+    margin-top: 0 !important;
 }
 .owl-nav .disabled {
   cursor: default;
 }
-.owl-nav .disabled i {
-  background-color: rgba(0, 0, 0, 0.233);
-  color: #9fb3d7;
-}
+
 /*===================================*
 07. END TIMELINE SECTION
 *===================================*/

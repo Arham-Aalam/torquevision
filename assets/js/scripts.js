@@ -256,8 +256,15 @@
     margin: 40,
     nav: true,
     navText: [
-      '<i class="ion-ios-arrow-back"></i>',
-      '<i class="ion-ios-arrow-forward"></i>'
+      `
+      <div class="owl-icon">
+      <img src="./assets/images/icons/left-arrow.svg" alt="next" class="icon">
+      </div>
+      `,
+      `
+      <div class="owl-icon">
+      <img src="./assets/images/icons/next.svg" alt="next" class="icon">
+      </div>`
     ],
     responsive: {
       0: {
