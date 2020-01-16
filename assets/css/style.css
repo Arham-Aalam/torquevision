@@ -241,7 +241,9 @@ body {
 .icon{
   width: 1rem !important;
   filter:invert(1) brightness(1);
+  transition: all 0.3s ease-in-out;
 }
+
 .menu-icon{
   width: 24px;
   height: 24px;
@@ -1159,15 +1161,26 @@ box-shadow: 0px 8px 11px 3px #0000001a;
 .team_img {
   overflow: hidden;
   position: relative;
+  border: 3px solid #26282b;
+  border-radius: 0;
+  padding: 1rem 0;
+  background: #202225;
+  transition: all 0.3s ease-in-out;
+}
+.team_box:hover .team_img{
+  border: 3px solid #1b1c1d;
+}
+.team_box:hover .team_info{
+  background-color: #1b1c1d;
 }
 .team_img img {
-  width: 100%;
+  height: 50vh;
 }
 .social_team {
   left: 0;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 75%;
   -moz-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1237,7 +1250,12 @@ box-shadow: 0px 8px 11px 3px #0000001a;
   );
   opacity: 0.8;
 }
-
+.content-popup{
+  transition: all 0.3s ease-in-out;
+}
+.content-popup:hover{
+  color: #fa3b3b;
+}
 .team_wrap .shap1,
 .team_wrap .shap5 {
   bottom: auto;
@@ -1252,9 +1270,9 @@ box-shadow: 0px 8px 11px 3px #0000001a;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border-radius: 8px;
-  overflow: hidden;
 }
 .v_dark .team_info {
+  transition: all 0.3s ease-in-out;
   background-color: #26282b;
 }
 
@@ -1501,6 +1519,9 @@ box-shadow: 0px 8px 11px 3px #0000001a;
 }
 .footer_social li a:hover {
   color: #fa3b3b;
+}
+.footer_social .icon:hover{
+  background-color: #fa3b3b !important;
 }
 .bottom_footer {
   background-color: #0a1c5d;
