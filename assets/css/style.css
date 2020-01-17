@@ -226,7 +226,9 @@ button:focus {
 
 /*START LOADER DESIGN*/
 .preloader {
-  background: #090909cb;
+  background: #090909e0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   bottom: 0;
   left: 0;
   position: fixed;
@@ -1118,7 +1120,7 @@ box-shadow: 0px 8px 11px 3px #0000001a;
 }
 .owl-icon img{
     filter: invert(1) brightness(1) !important;
-    width: 75%;
+    width: 85% !important;
     margin-top: 0 !important;
 }
 .owl-nav .disabled {
@@ -1518,11 +1520,9 @@ box-shadow: 0px 8px 11px 3px #0000001a;
   background: rgb(38, 40, 43);
 }
 .footer_social li a:hover {
-  color: #fa3b3b;
+  background-color: #fa3b3b;
 }
-.footer_social .icon:hover{
-  background-color: #fa3b3b !important;
-}
+
 .bottom_footer {
   background-color: #0a1c5d;
   padding: 30px 0;
@@ -1581,6 +1581,33 @@ box-shadow: 0px 8px 11px 3px #0000001a;
 }
 .v_blue_pro .bottom_footer {
   background-color: #041b9c;
+}
+
+.modal-dialog {
+  margin: 0 auto!important;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+.modal-content{
+  background-color: #1b1c1d;
+}
+.modal-footer{
+  border-top: none;
+}
+.modal-header{
+  border-bottom: none;
+}
+.contact-btn h4{
+  font-family: "Fjalla One",sans-serif;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.contact-btn .icon{
+  width:3.5rem !important;
+  margin-bottom: 1rem;
 }
 /*===================================*
 12. END FOOTER SECTION

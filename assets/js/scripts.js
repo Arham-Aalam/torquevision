@@ -258,12 +258,12 @@
     navText: [
       `
       <div class="owl-icon">
-      <img src="./assets/images/icons/left-arrow.svg" alt="next" class="icon">
+      <img src="/assets/images/icons/left-arrow.svg" alt="next" class="icon">
       </div>
       `,
       `
       <div class="owl-icon">
-      <img src="./assets/images/icons/next.svg" alt="next" class="icon">
+      <img src="/assets/images/icons/next.svg" alt="next" class="icon">
       </div>`
     ],
     responsive: {
@@ -318,6 +318,19 @@
   //         }
   //     });
   // });
+
+
+  /*===================================*
+  remove modal when clicking contact btns
+  ====================================*/
+function removeModal(){
+  $('#contactModal').modal('hide');
+}
+
+const contactBtn1 = document.querySelector(".contact-btn1");
+const contactBtn2 = document.querySelector(".contact-btn2");
+contactBtn1.addEventListener("click", removeModal);
+contactBtn2.addEventListener("click", removeModal);
 
   /*===================================*
 	09. SCROLLUP JS
