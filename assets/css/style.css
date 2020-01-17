@@ -226,9 +226,7 @@ button:focus {
 
 /*START LOADER DESIGN*/
 .preloader {
-  background: #090909e0;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: #090909;
   bottom: 0;
   left: 0;
   position: fixed;
