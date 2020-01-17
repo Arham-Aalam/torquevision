@@ -642,6 +642,10 @@ section.small_pb {
  .owl-next {
 	right: 0px;
 }
+.skype-btn{
+	font-size: 1.15rem;;
+    padding: .4rem .7rem;
+}
 }
 /* -------------------------------------------------
   max-width: 380px
