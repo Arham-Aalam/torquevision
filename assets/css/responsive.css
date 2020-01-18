@@ -673,4 +673,8 @@ section.small_pb {
 .app_btn li:first-child {
 	margin-bottom: 15px;
 }
+.skype-btn{
+	font-size: 1rem;;
+    padding: .3rem .5rem;
+}
 }
