@@ -252,9 +252,9 @@ body {
 .skype-btn {
   font-size: 1.5rem;
   color: #fff;
-  background: #202225;
+  background: #fa3b3b;
   box-shadow: 0 0 0 #fa3b3b;
-  /* box-shadow: rgba(0,0,0,.1) 0 4px 6px -1px, rgba(0,0,0,.06) 0 2px 4px -1px; */
+  box-shadow: rgba(0,0,0,.1) 0 4px 6px -1px, rgba(0,0,0,.06) 0 2px 4px -1px; 
   text-transform: capitalize;
   border: 1.5px solid #fa3b3b;
   padding: 0.5rem 1rem;
@@ -268,7 +268,7 @@ body {
   bottom: 10px;
   right: 15px;
   font-weight: 600;
-  /* animation: focus 2s infinite;   */
+   animation: focus 2.5s infinite;   
 }
 
 .skype-btn span {
@@ -280,7 +280,7 @@ body {
   left: 0%;
   background: transparent;
   border-radius: 5px;
-  animation: pulse_animation 2s infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: pulse_animation 2.5s infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .skype-btn span:nth-child(2) {
@@ -292,16 +292,16 @@ body {
   100% { box-shadow: 0 0 0 25px transparent }
 }
 
-/* @keyframes focus {
+ @keyframes focus {
 
   50%{
-    background-color: #fa3b3b;
+    background-color: #202225
   }
   100%{
-    background-color: transparent;
+    background-color: #fa3b3b;
     
   }
-}  */
+}  
 .skype-btn:hover {
   color: #fa3b3b;
   animation: none;
