@@ -115,30 +115,7 @@ section.small_pt {
 	padding-right: 15px;
 	width: auto;
 }
-.sidebar_block {
-	padding-left: 0;
-}
-.tk_pricing_info h5 {
-	font-size: 18px;
-}	
-.tk_pricing_info p {
-	font-size: 13px;
-}
-.tk_sale_info {
-	border-left: 0 none;
-	padding-left: 0;
-}
-.token_chart_info {
-	padding-left: 0;
-}
-.wp_document li {
-	margin-top: 20px;
-	width: 50%;
-}
-.wp_document li:nth-child(-n+2) {
-	margin-top: 0px;
-	width: 50%;
-}
+
 }
 /* -------------------------------------------------
   max-width: 991px
@@ -267,21 +244,7 @@ header.nav-fixed {
 .benefit_wrap .col-md-4:nth-child(-n+3) .benefit_box {
 	margin-top: 0;
 }
-.pie_chart_icon img {
-	max-width: 80px;
-}
-.sidebar_block {
-	margin-top: 40px;
-}
-.tk_pricing_info li {
-	display: inline-block;
-	margin-right: 10px;
-}
-.tk_sale_info {
-	border-top: 1px solid #ffffff;
-	margin-top: 30px;
-	padding-top: 30px;
-}
+
 .contact_form textarea {
 	height: 80px;
 }
@@ -376,9 +339,7 @@ section.small_pb {
 .benefit_wrap .col-md-4:nth-child(-n+2) .benefit_box {
 	margin-top: 0;
 }
-.pie_chart_icon img {
-	max-width: 100px;
-}
+
  .owl-prev {
 	left: -15px;
 }
@@ -391,36 +352,6 @@ section.small_pb {
 .copyright,
 .footer_menu {
 	text-align: center;
-}
-.scrollup {
-	font-size: 24px;
-	height: 40px;
-	line-height: 40px;
-	right: 10px;
-	width: 40px;
-}
-.mfp-close {
-	height: 30px;
-	line-height: 30px;
-	width: 30px;
-}
-.timeline_wrap::before,
-.timeline_icon {
-	left: 15px;
-}
-.timeline_content {
-	text-align: left;
-	width: 100%;
-}
-.timeline_block {
-	padding-left: 40px;
-}
-.tm_date {
-	position:relative;
-	left: 0;
-}
-.timeline_block:nth-child(2n) .tm_date {
-	right:0;
 }
 .form_submit {
 	text-align: left;
@@ -495,23 +426,7 @@ p,
 .res_xs_mt_50 {
 	margin-top: 50px;	
 }
-.token_chart {
-	margin-left: -10px;
-	margin-right: -10px;
-}
-.comment_info {
-	padding: 15px;
-}
-.comment_content p {
-	font-size: 14px;
-	line-height: normal;
-}
-.comment_info.reply {
-	padding-left: 60px;
-}
-.user_img img {
-	max-width: 60px;
-}
+
 .contact-btn .icon {
     width: 2.5rem!important;
 }
@@ -566,9 +481,7 @@ section.small_pb {
 	font-size: 18px;
 	letter-spacing: -0.3px;
   }
-.hide_m {
-	display: none;
-}
+
 .banner_section {
 	padding: 100px 0 80px 0;
 }
@@ -580,26 +493,7 @@ section.small_pb {
 .box_inner h4 {
 	font-size: 16px;
 }
-.tk_counter_inner {
-	padding: 10px;
-}
-.counter_box .tk_counter {
-	font-size: 24px;
-	padding: 15px 5px;
-}
-.counter_box .tk_text {
-	font-size: 10px;
-}
-.tk_countdown .btn {
-	margin: 10px 0;
-}
-.pie_chart_icon img {
-	max-width: 70px;
-	padding: 15px;
-}
-.mobileapp .btn {
-	margin: 5px;
-}
+
 .team_info h4 a,
 .footer_title {
 	font-size: 20px;
@@ -609,33 +503,8 @@ section.small_pb {
 }
 .client_logo img {
 	margin-top: 10px;
-	padding: 5px 10px;
 }
-.outline_input input {
-	height: 44px;
-	padding-right: 0;
-}
-.newsletter_form button {
-	margin-top: 10px;
-	position: relative;
-	right: 0;
-	top: 0;
-}
-.blog_title,.widget-post-content h6 {
-	font-size: 16px;
-}
-.authorize_box {
-	padding: 30px 10px;
-}
-.token_wrap {
-	padding: 15px;
-}
-.tk_pricing_info h5 {
-	font-size: 15px;
-}
-.app_feature {
-	margin-bottom: 20px;
-}
+
 .owl-prev {
 	left: 0px;
 }
@@ -646,6 +515,10 @@ section.small_pb {
 	font-size: 1.15rem;;
     padding: .4rem .7rem;
 }
+.see-more-btn{
+	margin-top:2rem;
+}
+
 }
 /* -------------------------------------------------
   max-width: 380px
@@ -654,25 +527,7 @@ section.small_pb {
 .title_light h2, .title_dark h2 {
 	font-size: 20px;
 }
-.pie_chart_icon img {
-	padding: 20px;
-}
-.user_img img {
-    max-width: 40px;
-}
-.comment_content {
-    padding-left: 15px;
-}
-.comment_info.reply {
-    padding-left: 40px;
-}
-.app_btn li {
-	display: block;
-	margin-right: 0;
-}
-.app_btn li:first-child {
-	margin-bottom: 15px;
-}
+
 .skype-btn{
 	font-size: 1rem;;
     padding: .3rem .5rem;
