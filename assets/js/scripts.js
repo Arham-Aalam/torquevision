@@ -11,36 +11,37 @@
 
   const Url = "https://tv-backend.herokuapp.com/post";
 
+  var showError = function(element){
+    element.style.borderColor = "#fa3b3b";
+    element.placeholder = "This field be cannot null";
+  }
+
   var validate = function(e) {
-    //console.log('hitttttttt');
-    let name = document.getElementById("first-name").value;
-    let email = document.getElementById("email").value;
-    let subject = document.getElementById("subject").value;
-    let description = document.getElementById("description").value;
+    e.preventDefault();
+    e.stopPropagation();
+    let name = document.getElementById("first-name");
+    let email = document.getElementById("email");
+    let subject = document.getElementById("subject");
+    let description = document.getElementById("description");
+
     var flag = 1;
-    if (email === "") {
-      document.getElementById("email").style.borderColor = "#fa3b3b";
-      document.getElementById("email").placeholder = "Email cannot be null";
+    if (email.value === "") {
+      showError(email);
       flag = 0;
     }
-    if (subject === "") {
-      document.getElementById("subject").style.borderColor = "#fa3b3b";
-      document.getElementById("subject").placeholder = "Subject cannot be null";
+    if (subject.value === "") {
+      showError(subject);
+      flag = 0;
+    }
+    if (description.value === "") {
+      showError(description);
+      flag = 0;
+    }
+    if (name.value === "") {
+      showError(name);
+      flag = 0;
+    }
 
-      flag = 0;
-    }
-    if (description === "") {
-      document.getElementById("description").style.borderColor = "#fa3b3b";
-      document.getElementById("description").placeholder =
-        "Message cannot be null";
-
-      flag = 0;
-    }
-    if (name === "") {
-      document.getElementById("first-name").style.borderColor = "#fa3b3b";
-      document.getElementById("first-name").placeholder = "Name cannot be null";
-      flag = 0;
-    }
     if (flag == 1) {
       $.ajax({
         url: Url,
